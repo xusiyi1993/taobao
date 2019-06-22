@@ -9,6 +9,7 @@ a{
 
 .topbar{
     /*border: 1px solid black;*/
+    font-family: tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
     font-size: 12px;
     width: 100%;
     height: 35px;
@@ -31,6 +32,11 @@ a{
 
 .container .topbar-my a:hover,.container .topbar-nav a:hover{
     color: #f40;
+}
+
+.container a i,.container span i{
+    font-size: 1px;
+    margin: 0px 4px 0px 4px;
 }
 
 .container .container-bg:hover,.container span:hover{
