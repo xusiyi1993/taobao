@@ -290,13 +290,12 @@ ul{
 }
 
 .main{
-    background-color: #eeeeee;
+    background-color: #f8f8f8;
     width: 100%;
     height: 632px;
 }
 
 .main .main-content{
-    background-color: #ff9000;
     position: relative;
     width: 1200px;
     height: 632px;
@@ -304,7 +303,6 @@ ul{
 }
 
 .main .main-content .main-left{
-    background-color: yellow;
     position: absolute;
     left: 0;
     top: 0;
@@ -335,8 +333,22 @@ ul{
 
 .main .main-content .main-left .sort ul{
     position: absolute;
-    left: -20px;
+    left: -40px;
     top: -10px;
+}
+
+.main .main-content .main-left .sort ul li{
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 2px;
+    padding-left: 20px;
+    width: 168px;
+}
+
+.main .main-content .main-left .sort ul li:hover{
+    background-color: #ffe4dc;
+    color: #f40;
 }
 
 .main .main-content .main-left .sort ul li a{
@@ -345,20 +357,24 @@ ul{
     line-height: 2.3em;
 }
 
+.main .main-content .main-left .sort ul li a:hover{
+    text-decoration: underline;
+    color: #f40;
+}
+
 .main .main-content .main-left .sort ul li span{
     font-size: 14px;
     color: #666666;
 }
 
-.main .main-content .main-left .sort ul li i{
+.main .main-content .main-left .sort ul li .iconfont{
     position: absolute;
-    right: -20px;
+    right: 8px;
+    padding: 1px 0;
     font-size: 12px;
-    line-height: 2.3em;
 }
 
 .main .main-content .main-left .ad{
-    background-color: wheat;
     position: absolute;
     left: 200px;
     top: 0;
@@ -367,10 +383,49 @@ ul{
 }
 
 .main .main-content .main-left .ad .ad-top1{
+    position: absolute;
+    top: 10px;
     background-color: yellowgreen;
     width: 526px;
     height: 280px;
-    margin-top: 10px;
+}
+
+.main .main-content .main-left .ad .ad-top1 .rectangle{
+    position: absolute;
+    left: 50%;
+    top: 256px;
+    margin-left: -35px;
+    width: 70px;
+    height: 12px;
+    background-color: #fff;
+    padding: 0;
+    border-radius: 6px;
+    opacity: 0.5;
+}
+
+.main .main-content .main-left .ad .ad-top1 ul{
+    position: absolute;
+    left: 50%;
+    top: 240px;
+    margin-left: -35px;
+    width: 70px;
+    height: 12px;
+    background-color: transparent;
+    padding: 0;
+}
+
+.main .main-content .main-left .ad .ad-top1 ul li{
+    float: left;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    margin: 2px 3px 2px 3px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.main .main-content .main-left .ad .ad-top1 .circle .circle-check{
+    background-color: #f40;
 }
 
 .main .main-content .main-left .ad .ad-top2{
@@ -384,10 +439,69 @@ ul{
 }
 
 .main .main-content .main-left .ad .ad-bottom1{
-    background-color: thistle;
+    position: absolute;
+    left: 0;
+    top: 300px;
+    background-color: transparent;
     width: 526px;
     height: 222px;
-    margin-top: 10px;
+}
+
+.main .main-content .main-left .ad .ad-bottom1 .logo-tianmao{
+    position: absolute;
+    left: 2px;
+    top: 0px;
+}
+
+.main .main-content .main-left .ad .ad-bottom1 ul{
+    background-color: #f40;
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 526px;
+    height: 3px;
+    padding: 0;
+}
+
+.main .main-content .main-left .ad .ad-bottom1 ul li{
+    float: left;
+}
+
+.main .main-content .main-left .ad .ad-bottom1 ul .line1{
+    width: 89px;
+    height: 3px;
+    background-color: #f40;
+}
+
+.main .main-content .main-left .ad .ad-bottom1 ul .line2{
+    width: 87px;
+    height: 3px;
+    background-color: #f40;
+}
+
+.main .main-content .main-left .ad .ad-bottom1 ul .line-check{
+    background-color: black;
+}
+
+.main .main-content .main-left .ad .ad-bottom1 .ad-img{
+    position: absolute;
+    left: 0;
+    top: 20px;
+    width: 526px;
+    height: 200px;
+    background-color: #fff;
+}
+
+.main .main-content .main-left .ad .ad-bottom1 .img-left{
+    position: absolute;
+    left: 6px;
+    top: 5px;
+}
+
+.main .main-content .main-left .ad .ad-bottom1 .img-right{
+    position: absolute;
+    right: 6px;
+    top: 5px;
 }
 
 .main .main-content .main-left .ad .ad-bottom2{
