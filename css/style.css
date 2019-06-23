@@ -310,16 +310,6 @@ ul{
     height: 632px;
 }
 
-.main .main-content .main-right{
-    background-color: teal;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 290px;
-    height: 622px;
-    margin-top: 10px;
-}
-
 .main .main-content .main-left .sort{
     position: absolute;
     left: 0;
@@ -514,10 +504,113 @@ ul{
 }
 
 .main .main-content .main-left .headlines-taobao{
-    background-color: violet;
+    background-color: #fff;
     position: absolute;
     left: 0;
     top: 532px;
     width: 900px;
-    height: 99px;
+    height: 100px;
+}
+
+.toutiao-left img{
+    position: absolute;
+    left: 20px;
+    top: 30px;
+}
+
+.toutiao-left span{
+    position: absolute;
+    left: 20px;
+    top: 62px;
+    color: #999fa3;
+    font-size: 12px;
+}
+
+.headlines-taobao .toutiao-right a{
+    position: absolute;
+    right: 10px;
+    top: 13px;
+    display: block;
+    width: 686px;
+    height: 74px;
+}
+
+.headlines-taobao .toutiao-right .ad-main .title{
+    position: absolute;
+    left: 160px;
+    top: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    height: 28px;
+    line-height: 28px;
+    color: #333333;
+}
+
+.headlines-taobao .toutiao-right .ad-main .title:hover{
+    color: #f40;
+}
+
+.headlines-taobao .toutiao-right .ad-main .explain{
+    position: absolute;
+    left: 160px;
+    top: 26px;
+    font-size: 14px;
+    color: #a4a4a4;
+}
+
+.headlines-taobao .more{
+    position: absolute;
+    right: 10px;
+    top: 13px;
+    font-size: 12px;
+    color: #b9b9b9;
+}
+
+.headlines-taobao .more i{
+    font-size: 12px;
+    color: #b9b9b9;
+}
+
+.main .main-content .main-right{
+    background-color: teal;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 290px;
+    height: 622px;
+    margin-top: 10px;
+}
+
+.main .main-content .main-right .personal-center{
+    background-color: #b0edff;
+    width: 290px;
+    height: 158px;
+}
+
+.main .main-content .main-right .personal-center .person span{
+    font-size: 12px;
+}
+
+.main .main-content .main-right .report{
+    background-color: #75afff;
+    width: 290px;
+    height: 26px;
+}
+
+.main .main-content .main-right .notice{
+    background-color: #ebbfff;
+    width: 290px;
+    height: 118px;
+}
+
+.main .main-content .main-right .list{
+    background-color: #bfffd4;
+    width: 290px;
+    height: 208px;
+}
+
+.main .main-content .main-right .app{
+    background-color: #e8ffbf;
+    width: 290px;
+    height: 112px;
 }
