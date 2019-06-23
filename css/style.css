@@ -101,6 +101,11 @@ ul{
     color: #f40;
 }
 
+.case .search-goods ul li .focus{
+    color: #fff;
+    background:linear-gradient(to right,#ff9000,#ff5000);
+}
+
 .search-goods ul li:hover{
     background-color: #ffeee5;
 }
@@ -207,15 +212,198 @@ ul{
 }
 
 .nav{
-    border: 1px solid #000000;
+    /*border: 1px solid #000000;*/
     width: 100%;
     height: 30px;
     background: linear-gradient(to right,#ff9000,#ff5000);
 }
 
 .nav-ul{
-    border: 1px solid black;
+    /*border: 1px solid black;*/
+    position: relative;
     width: 1200px;
     height: 30px;
     margin: 0 auto;
+}
+
+.nav-ul span{
+    display: block;
+    width: 190px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #f40;
+}
+
+.nav-left{
+    position: absolute;
+    left: 165px;
+    top: 50%;
+    margin: -15px;
+    background: none;
+}
+
+.nav-ul .nav-left li{
+    float: left;
+    margin: 0 5px 0 5px;
+    padding: 0 7px 0 7px;
+}
+
+.nav-ul .nav-left li a{
+    font-size: 16px;
+    color:#fff;
+    font-weight: bold;
+    background-color: transparent;
+    height: 30px;
+    line-height: 30px;
+}
+
+.nav-right{
+    position: absolute;
+    left: 360px;
+    top: 50%;
+    margin-top: -15px;
+}
+
+.nav-ul .nav-right li{
+    float: left;
+    margin: 0 3px 0 3px;
+    padding: 0 5px 0 5px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+    background-color: transparent;
+    height: 30px;
+    line-height: 30px;
+}
+
+.nav-ul .nav-right li a{
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+    background-color: transparent;
+    height: 30px;
+    line-height: 30px;
+}
+
+.main{
+    background-color: #eeeeee;
+    width: 100%;
+    height: 632px;
+}
+
+.main .main-content{
+    background-color: #ff9000;
+    position: relative;
+    width: 1200px;
+    height: 632px;
+    margin: 0 auto;
+}
+
+.main .main-content .main-left{
+    background-color: yellow;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 900px;
+    height: 632px;
+}
+
+.main .main-content .main-right{
+    background-color: teal;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 290px;
+    height: 622px;
+    margin-top: 10px;
+}
+
+.main .main-content .main-left .sort{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+    border: 1px solid #f40;
+    border-top: 0;
+    width: 188px;
+    height: 521px;
+}
+
+.main .main-content .main-left .sort ul{
+    position: absolute;
+    left: -20px;
+    top: -10px;
+}
+
+.main .main-content .main-left .sort ul li a{
+    font-size: 14px;
+    color: #666666;
+    line-height: 2.3em;
+}
+
+.main .main-content .main-left .sort ul li span{
+    font-size: 14px;
+    color: #666666;
+}
+
+.main .main-content .main-left .sort ul li i{
+    position: absolute;
+    right: -20px;
+    font-size: 12px;
+    line-height: 2.3em;
+}
+
+.main .main-content .main-left .ad{
+    background-color: wheat;
+    position: absolute;
+    left: 200px;
+    top: 0;
+    width: 700px;
+    height: 522px;
+}
+
+.main .main-content .main-left .ad .ad-top1{
+    background-color: yellowgreen;
+    width: 526px;
+    height: 280px;
+    margin-top: 10px;
+}
+
+.main .main-content .main-left .ad .ad-top2{
+    background-color: turquoise;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 10px;
+    width: 164px;
+    height: 280px;
+}
+
+.main .main-content .main-left .ad .ad-bottom1{
+    background-color: thistle;
+    width: 526px;
+    height: 222px;
+    margin-top: 10px;
+}
+
+.main .main-content .main-left .ad .ad-bottom2{
+    background-color: #fd0ddd;
+    position: absolute;
+    right: 0;
+    top: 300px;
+    width: 164px;
+    height: 222px;
+}
+
+.main .main-content .main-left .headlines-taobao{
+    background-color: violet;
+    position: absolute;
+    left: 0;
+    top: 532px;
+    width: 900px;
+    height: 99px;
 }
