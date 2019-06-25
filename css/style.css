@@ -292,7 +292,7 @@ ul{
 .main{
     background-color: #f8f8f8;
     width: 100%;
-    height: 632px;
+    height: 735px;
 }
 
 .main .main-content{
@@ -558,12 +558,16 @@ ul{
     color: #a4a4a4;
 }
 
-.headlines-taobao .more{
+.headlines-taobao .more a{
     position: absolute;
     right: 10px;
     top: 13px;
     font-size: 12px;
     color: #b9b9b9;
+}
+
+.headlines-taobao .more a:hover{
+    color: #f40;
 }
 
 .headlines-taobao .more i{
@@ -572,7 +576,7 @@ ul{
 }
 
 .main .main-content .main-right{
-    background-color: teal;
+    background-color: #fff;
     position: absolute;
     right: 0;
     top: 0;
@@ -582,35 +586,354 @@ ul{
 }
 
 .main .main-content .main-right .personal-center{
-    background-color: #b0edff;
     width: 290px;
-    height: 158px;
+    height: 146px;
 }
 
-.main .main-content .main-right .personal-center .person span{
+.main .main-content .main-right .personal-center .person-info a img{
+    position: absolute;
+    left: 50%;
+    top: 8px;
+    margin-left: -25px;
+}
+
+.main .main-content .main-right .personal-center .person-info span{
+    position: absolute;
+    top: 60px;
+    display: block;
     font-size: 12px;
+    width: 290px;
+    text-align: center;
 }
 
-.main .main-content .main-right .report{
-    background-color: #75afff;
+.main .main-content .main-right .personal-center .person-link{
+    position: absolute;
+    left: 0;
+    top: 78px;
+    width: 290px;
+    height: 16px;
+}
+
+.main .main-content .main-right .personal-center .person-link .a-left{
+    position: relative;
+    left: 40px;
+    top: 0;
+    background-color: #ffe4db;
+    height: 16px;
+    width: 100px;
+    border-radius: 8px;
+}
+
+.main .main-content .main-right .personal-center .person-link .a-left a img{
+    position: absolute;
+    left: 0px;
+    top: 0;
+}
+
+.main .main-content .main-right .personal-center .person-link .a-left a span{
+    position: absolute;
+    left: 20px;
+    top: 0px;
+    color: #ff575c;
+    font-size: 12px;
+    height: 16px;
+    line-height: 16px;
+}
+
+.main .main-content .main-right .personal-center .person-link .a-left a span:hover{
+    color: #ff5022;
+}
+
+.main .main-content .main-right .personal-center .person-link .a-right{
+    position: absolute;
+    left: 148px;
+    top: 0;
+    background-color: #ffe4db;
+    height: 16px;
+    width: 90px;
+    border-radius: 8px;
+}
+
+.main .main-content .main-right .personal-center .person-link .a-right a img{
+    position: absolute;
+    left: 0px;
+    top: 0;
+}
+
+.main .main-content .main-right .personal-center .person-link .a-right a span{
+    position: absolute;
+    left: 20px;
+    top: 0px;
+    color: #ff575c;
+    font-size: 12px;
+    height: 16px;
+    line-height: 16px;
+}
+
+.main .main-content .main-right .personal-center .person-link .a-right a span:hover{
+    color: #ff5022;
+}
+
+.main .main-content .main-right .personal-center .person-goods{
+    position: absolute;
+    left: 0;
+    top: 98px;
+    width: 268px;
+    height: 40px;
+    padding: 0 11px 0 11px;
+}
+
+.main .main-content .main-right .personal-center .person-goods a{
+    display: block;
+    float: left;
+
+    width: 67px;
+    height: 36px;
+    text-align: center;
+    font-size: 12px;
+    padding: 2px 0px 2px 0px;
+    color: #333333;
+}
+
+.main .main-content .main-right .personal-center .person-goods a span{
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #f40;
+}
+
+.main .main-content .main-right .report a{
+    display: block;
+    background-color: #ffe4dd;
     width: 290px;
     height: 26px;
 }
 
+.main .main-content .main-right .report span{
+    display: block;
+    font-size: 12px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    color: #f40;
+}
+
+.main .main-content .main-right .report i{
+    position: absolute;
+    right: 40px;
+    top: 146px;
+    height: 26px;
+    line-height: 26px;
+    font-size: 14px;
+    color: #f40;
+}
+
 .main .main-content .main-right .notice{
-    background-color: #ebbfff;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: 172px;
     width: 290px;
-    height: 118px;
+    height: 102px;
+}
+
+.main .main-content .main-right .notice .notice-nav ul{
+    font-size: 12px;
+    color: #333333;
+    width: 290px;
+    height: 24px;
+    padding: 0;
+    margin: 10px 11px 0px 11px;
+}
+
+.main .main-content .main-right .notice .notice-nav ul li{
+    float: left;
+    text-align: center;
+    padding: 0 6px 0 6px;
+    margin: 0 8px 0 8px;
+}
+
+.main .main-content .main-right .notice .notice-nav .underline{
+    font-weight: bold;
+    border-bottom: 2px solid #f40;
+}
+
+.main .main-content .main-right .notice .notice-nav ul li a:hover{
+    color: #f40;
+}
+
+.main .main-content .main-right .notice .notice-ad{
+    font-size: 12px;
+    margin-left: 6px;
+}
+
+.main .main-content .main-right .notice .notice-ad .notice-eff a span{
+    color: #f40;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 6px 0 6px;
+}
+
+.main .main-content .main-right .notice .notice-ad .notice-tianmao a span{
+    color: #333333;
+    padding: 0 6px 0 6px;
 }
 
 .main .main-content .main-right .list{
     background-color: #bfffd4;
+    position: absolute;
+    left: 0;
+    top: 269px;
     width: 290px;
-    height: 208px;
+    height: 235px;
+}
+
+.main .main-content .main-right .list ul{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 290px;
+    padding: 0;
+    margin: 0;
+}
+
+.main .main-content .main-right .list ul .list-top{
+    padding: 1px 0 1px 0;
+    border-top: 1px solid #f4f4f4;
+}
+
+.main .main-content .main-right .list ul .list1{
+    width: 71px;
+    border-right: 1px solid #f4f4f4;
+}
+
+.main .main-content .main-right .list ul .list2{
+    width: 72px;
+    border-right:  1px solid #f4f4f4;
+}
+
+.main .main-content .main-right .list ul .list3{
+    width: 72px;
+}
+
+.main .main-content .main-right .list ul li{
+    background-color: #fff;
+    float: left;
+    height: 77px;
+    padding: 0 0 1px 0;
+    border-bottom: 1px solid #f4f4f4;
+    text-align: center;
+}
+
+.main .main-content .main-right .list ul li a{
+    float: left;
+    font-size: 12px;
+    color: #333333;
+    text-align: center;
+    width: 72px;
+    height: 24px;
+    line-height: 24px;
+    margin-top: 44px;
+    font-weight: bold;
+}
+
+.main .main-content .main-right .list ul li a:hover{
+    color: #f40;
+}
+
+.main .main-content .main-right .list ul .top1 img{
+    position: absolute;
+    top: 18px;
+}
+
+.main .main-content .main-right .list ul .top2 img{
+    position: absolute;
+    top: 96px;
+}
+
+.main .main-content .main-right .list ul .top3 img{
+    position: absolute;
+    top: 174px;
+}
+
+.main .main-content .main-right .list ul .left1 img{
+    position: absolute;
+    left: 22px;
+}
+
+.main .main-content .main-right .list ul .left2 img{
+    position: absolute;
+    left: 95px;
+}
+
+.main .main-content .main-right .list ul .left3 img{
+    position: absolute;
+    left: 168px; 
+}
+
+.main .main-content .main-right .list ul .left4 img{
+    position: absolute;
+    left: 241px; 
 }
 
 .main .main-content .main-right .app{
-    background-color: #e8ffbf;
+    background-color: #fff;
+    position: absolute;
+    top: 508px;
     width: 290px;
-    height: 112px;
+    height: 114px;
+}
+
+.main .main-content .main-right .app .text{
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 14px;
+    padding: 0;
+}
+
+.main .main-content .main-right .app .text  a span{
+    position: absolute;
+    right: 0px;
+    font-size: 12px;
+    font-weight: normal;
+    color: #b9b9b9;
+    margin-right: 14px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.main .main-content .main-right .app .text  a span:hover{
+    color: #f40;
+}
+
+.main .main-content .main-right .app .text  a span i{
+    font-size: 12px;
+    color: #b9b9b9;
+}
+
+.main .main-content .main-right .app .icon{
+    position: absolute;
+    top: 30px;
+    width: 290px;
+    height: 84px;
+}
+
+.main .main-content .main-right .app .icon ul{
+    position: absolute;
+    left: 29px;
+    padding: 0;
+    margin: 0;
+}
+
+.main .main-content .main-right .app .icon ul li{
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+
+.main .main-content .main-right .app .icon ul .bottom{
+    margin-top: -8px;
 }
